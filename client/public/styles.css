@@ -4,14 +4,27 @@
   align-items: center;
   font-family: "Source Code Pro", monospace;
   font-size: 5vw;
+  scroll-snap-type: y proximity;
 }
 
+.scroll-container-1 {
+  scroll-snap-align: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.scroll-container-2 {
+  scroll-snap-align: end;
+  text-align: center;
+  height: 100vh;
+}
 .mean-mug {
   margin-top: 10vh;
 }
 
 .typical-intro {
   text-align: center;
+  padding-bottom: 5vh;
 }
 
 .pointing-arrow {
